@@ -1,0 +1,24 @@
+{
+  "name": "nodejsbots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "pdf-parse": "^1.1.1",
+    "punycode": "^2.3.1",
+    "sharp": "^0.32.6",
+    "telegraf": "3.39",
+    "tesseract.js": "^5.0.3",
+    "textract": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
